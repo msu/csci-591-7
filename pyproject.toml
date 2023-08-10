@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "csci-305"
+version = "0.1.0"
+description = ""
+authors = ["Matt Revelle <matthew.revelle@montana.edu>"]
+readme = "README.md"
+packages = [{include = "csci_305"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs = "^1.5.2"
+mkdocs-dracula-theme = "^1.0.5"
+mkdocs-cluster = "^0.0.9"
+mkdocs-cinder = "^1.2.0"
+mkdocs-darkcinder = "^0.0.2"
+mkdocs-gitbook = "^0.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
