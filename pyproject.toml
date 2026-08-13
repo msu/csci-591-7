@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "csci-305"
+name = "csci-591"
 version = "0.1.0"
 description = ""
 authors = ["Matt Revelle <matthew.revelle@montana.edu>"]
 readme = "README.md"
-packages = [{include = "csci_305"}]
+packages = [{include = "csci_591"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
