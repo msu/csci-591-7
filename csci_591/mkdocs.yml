@@ -1,6 +1,5 @@
 site_name: "CSCI 591: Automated Vulnerability Discovery"
-# site_url: "http://localhost:8080/"
-site_url: "https://cs.montana.edu/revelle/csci591/"
+site_url: "https://msu.github.io/csci-591-7/"
 
 theme:
   name: cinder
@@ -22,7 +21,7 @@ extra_css:
   - style.css
 
 extra_javascript:
-  - javascripts/mathjax.js
+  - javascript/mathjax.js
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 plugins:
