@@ -5,6 +5,7 @@ umask 022
 
 archive_url="${CSCI591_ARCHIVE_URL:-https://msu.github.io/csci-591-7/csci591-site.tar.gz}"
 checksum_url="${archive_url}.sha256"
+version_url="${CSCI591_VERSION_URL:-${archive_url%/*}/deploy-version.txt}"
 
 : "${CSCI591_DEST_DIR:?Set CSCI591_DEST_DIR to the absolute server directory for /revelle/csci591}"
 
@@ -36,8 +37,8 @@ if command -v flock >/dev/null 2>&1; then
 fi
 
 download_dir=$(mktemp -d)
-stage_dir=$(mktemp -d "${dest_parent}/.${dest_name}.new.XXXXXX")
-backup_dir="${dest_parent}/.${dest_name}.previous.$$"
+stage_dir=""
+backup_dir=""
 
 cleanup() {
   rm -rf -- "$download_dir"
@@ -46,7 +47,7 @@ cleanup() {
     rm -rf -- "$stage_dir"
   fi
 
-  if [[ -e "$backup_dir" ]]; then
+  if [[ -n "${backup_dir:-}" && -e "$backup_dir" ]]; then
     if [[ ! -e "$CSCI591_DEST_DIR" ]]; then
       mv -- "$backup_dir" "$CSCI591_DEST_DIR"
     else
@@ -55,6 +56,18 @@ cleanup() {
   fi
 }
 trap cleanup EXIT
+
+curl -fsSL --retry 3 --connect-timeout 15 --max-time 30 \
+  "$version_url" -o "$download_dir/deploy-version.txt"
+
+if [[ -f "$CSCI591_DEST_DIR/deploy-version.txt" ]] && \
+   cmp -s "$download_dir/deploy-version.txt" "$CSCI591_DEST_DIR/deploy-version.txt"; then
+  echo "Course site is already current"
+  exit 0
+fi
+
+stage_dir=$(mktemp -d "${dest_parent}/.${dest_name}.new.XXXXXX")
+backup_dir="${dest_parent}/.${dest_name}.previous.$$"
 
 curl -fsSL --retry 3 --connect-timeout 15 --max-time 120 \
   "$archive_url" -o "$download_dir/csci591-site.tar.gz"
@@ -80,12 +93,6 @@ tar -xzf "$download_dir/csci591-site.tar.gz" -C "$stage_dir"
 if [[ ! -f "$stage_dir/index.html" || ! -f "$stage_dir/deploy-version.txt" ]]; then
   echo "Downloaded archive is not a complete course site" >&2
   exit 65
-fi
-
-if [[ -f "$CSCI591_DEST_DIR/deploy-version.txt" ]] && \
-   cmp -s "$stage_dir/deploy-version.txt" "$CSCI591_DEST_DIR/deploy-version.txt"; then
-  echo "Course site is already current"
-  exit 0
 fi
 
 chmod -R a+rX "$stage_dir"
