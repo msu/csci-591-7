@@ -1,0 +1,40 @@
+site_name: "CSCI 591: Automated Vulnerability Discovery"
+# site_url: "http://localhost:8080/"
+site_url: "https://cs.montana.edu/revelle/csci591/"
+
+theme:
+  name: cinder
+  custom_dir: cinder/
+  highlightjs: true
+  disable_footer: true
+
+nav:
+  - Home: index.md
+  - Assignments:
+    - 'Software Vulnerabilities': 'assignments/01.md'
+#    - 'Fuzzing': 'assignments/02.md'
+#    - 'Symbolic Execution': 'assignments/03.md'
+#    - 'Data-Flow Analysis': 'assignments/04.md'
+#  - Project: project.md
+#  - Paper Review: paper_review.md
+
+extra_css:
+  - style.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+  - search
+  - macros
+
+markdown_extensions:
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      auto_title: false
