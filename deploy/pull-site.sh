@@ -9,8 +9,11 @@ checksum_url="${archive_url}.sha256"
 : "${CSCI591_DEST_DIR:?Set CSCI591_DEST_DIR to the absolute server directory for /revelle/csci591}"
 
 case "$CSCI591_DEST_DIR" in
-  ""|/)
-    echo "Refusing unsafe destination: $CSCI591_DEST_DIR" >&2
+  /*/www/csci591)
+    ;;
+  *)
+    echo "Refusing unexpected destination: $CSCI591_DEST_DIR" >&2
+    echo "CSCI591_DEST_DIR must be an absolute path ending in /www/csci591" >&2
     exit 64
     ;;
 esac
