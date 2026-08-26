@@ -37,6 +37,17 @@ jobs:
       - name: Build website
         run: ./build.sh
 
+      - name: Package website for the MSU mirror
+        run: |
+          printf '%s\n' "$GITHUB_SHA" > csci_591/site/deploy-version.txt
+          tar -czf "$RUNNER_TEMP/csci591-site.tar.gz" -C csci_591/site .
+          (
+            cd "$RUNNER_TEMP"
+            sha256sum csci591-site.tar.gz > csci591-site.tar.gz.sha256
+          )
+          cp "$RUNNER_TEMP/csci591-site.tar.gz" csci_591/site/
+          cp "$RUNNER_TEMP/csci591-site.tar.gz.sha256" csci_591/site/
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
