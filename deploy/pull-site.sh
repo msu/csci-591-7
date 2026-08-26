@@ -23,6 +23,15 @@ if [[ ! -d "$dest_parent" ]]; then
   exit 66
 fi
 
+lock_file="${CSCI591_LOCK_FILE:-${dest_parent}/.${dest_name}.deploy.lock}"
+if command -v flock >/dev/null 2>&1; then
+  exec 9>"$lock_file"
+  if ! flock -n 9; then
+    echo "Another course-site deployment is already running"
+    exit 0
+  fi
+fi
+
 download_dir=$(mktemp -d)
 stage_dir=$(mktemp -d "${dest_parent}/.${dest_name}.new.XXXXXX")
 backup_dir="${dest_parent}/.${dest_name}.previous.$$"
@@ -44,8 +53,10 @@ cleanup() {
 }
 trap cleanup EXIT
 
-curl -fsSL "$archive_url" -o "$download_dir/csci591-site.tar.gz"
-curl -fsSL "$checksum_url" -o "$download_dir/csci591-site.tar.gz.sha256"
+curl -fsSL --retry 3 --connect-timeout 15 --max-time 120 \
+  "$archive_url" -o "$download_dir/csci591-site.tar.gz"
+curl -fsSL --retry 3 --connect-timeout 15 --max-time 120 \
+  "$checksum_url" -o "$download_dir/csci591-site.tar.gz.sha256"
 
 (
   cd "$download_dir"
