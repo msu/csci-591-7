@@ -91,7 +91,7 @@ A few guidelines on how groups in our class will work:
 - The active group memberships at the time an assignment is released must be used for that assignment
 - Course project proposals will list all members of the course project group; this list is not expected to change
 
-Please let me know if a group member is not contributing equally. Additionally, each group member is expected to contribute equally to every course assignment. Individual members will be asked questions during presentations; failure to demonstrate mastery of the material will result in a lower assignment grade for that individual.
+Each group member is expected to contribute equally to every course assignment. Please let me know if a group member is not contributing equally. Individual members will be asked questions during presentations; failure to demonstrate mastery of the material will result in a lower assignment grade for that individual.
 
 <!-- ### Finding Vulnerabilities (Week 2) -->
 <!-- Find vulnerabilities in program binaries using reverse engineering tools. Students will identify different classes of vulnerabilities in programs. -->
