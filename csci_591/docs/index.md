@@ -164,14 +164,12 @@ You may **not**:
 - Modify another group's solution and claim it as your own.
 
 ## Generative AI Policy
-In this course, you are encouraged to use generative AI to summarize course material and search for answers to specific questions. All uses of generative AI are permitted. However, I **strongly** recommend you review and ensure you understand any generated code use in assignments. Submitting and presenting code you do not understand will result in failing the oral examination components of the assignments.
+In this course, you are encouraged to use generative AI to summarize course material, search for answers to specific questions, and test your understanding of the material. All uses of generative AI are permitted. However, I **strongly** recommend you review and ensure you understand any generated code use in assignments. Submitting and presenting code you do not understand will result in failing the oral examination components of the assignments.
 
 When requesting help from the instructor or TA, please be open about your use of generative AI. This helps us understand which portions of the project code you have not written.
 
 ## Late Assignment Policy
-Assignments are due end-of-day in the [Anywhere on Earth (AoE)](https://time.is/Anywhere_on_Earth) time zone for the posted due date. Before Nov 3, Mountain Time is 6 hours behind AoE; after Nov 3, Mountain Time is 5 hours behind AoE. If an assignment is due end-of-day Oct 30 AoE, then it is due Oct 31, 5:59 AM Mountain Time. If it is due end-of-day Nov 10 AoE, then it is due Nov 11, 4:59 AM Mountain Time.
-
-Assignments can be submitted up to 48 hours after the deadline but will receive a late penalty.
+Assignments are due end-of-day in the Mountain Time timezone for the posted due date. Assignments can be submitted up to 48 hours after the deadline but will receive a late penalty.
 
 Time | Penalty
 --- | ---
