@@ -50,7 +50,7 @@ By the end of this course, students should:
 
 ## Communication
 
-Discord will be used for course announcements and discussions outside of class. Announcements will also be posted to Brightspace. Please ask any general course questions in the course Discord channel. This will provide an opportunity for both other classmates to answer and for the response to be shared with all.
+Canvas will be used for course announcements and Discord will be used for discussions outside of class. Please ask any general course questions in the course Discord channel. This will provide an opportunity for both other classmates to answer and for the response to be shared with all.
 
 Use this link to join the server: [https://discord.gg/EZtTd43kgk](https://discord.gg/EZtTd43kgk).
 
