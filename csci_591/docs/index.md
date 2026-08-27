@@ -29,7 +29,7 @@ Vulnerability research is the task of identifying and analyzing vulnerabilities 
 In the scope of this course, binary analysis refers to the application of vulnerability discovery techniques to programs that have been transformed from a source representation to an executable or library file containing instructions for execution on a CPU or virtual machine. Binary analysis is critical to vulnerability discovery since source code for commercial-of-the-shelf (COTS) software is frequently unavailable. Additionally, decisions made by the compiler can impact whether a software bug is an actual vulnerability and whether that vulnerability can be exercised. We will make use of software reverse engineering tools to review compiled programs. Our focus will be on C and C++ programs compiled for any of the major operating systems. We will review the structure of executable file formats and function control-flow graphs.
 
 ### Program Analysis
-Program analysis is the task of automatically identifying certain properties of a program. In this course, we are focused on identifying properties that indicate possible vulnerabilities or undefined behavior. We will consider both static and dynamic program analysis techniques which may include: fuzzing, symbolic execution, data-flow analysis, abstract interpretation, and formal verification.
+Program analysis is the task of automatically identifying certain properties of a program. In this course, we are focused on identifying properties that indicate possible vulnerabilities or undefined behavior. We will consider both static and dynamic program analysis techniques which may include: fuzzing, symbolic execution, data-flow analysis using abstract interpretation.
 
 ## Learning Outcomes
 
