@@ -1,5 +1,5 @@
 "Introduction","",""
-"What are Vulnerabilities?","",""
+"What Are Vulnerabilities?","",""
 "Let's Write Vulnerable Code","",""
 "Vulnerability Research","",""
 "Introduction to Fuzzing","","[Intro to Testing](https://www.fuzzingbook.org/html/Intro_Testing.html), [Fuzzing](https://www.fuzzingbook.org/html/Fuzzer.html)"
