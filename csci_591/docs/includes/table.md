@@ -1,7 +1,7 @@
 Date | Topic | Reading 
  --- | --- | ---
 2026 Aug 27 (R) | Introduction | 
-2026 Sep 01 (T) | What Are Vulnerabilities? | 
+2026 Sep 01 (T) | What Are Vulnerabilities? ([slides](slides/vulnerabilities.pdf)) | 
 2026 Sep 03 (R) | Let's Write Vulnerable Code | 
 2026 Sep 08 (T) | Vulnerability Research | 
 2026 Sep 10 (R) | Introduction to Fuzzing | [Intro to Testing](https://www.fuzzingbook.org/html/Intro_Testing.html), [Fuzzing](https://www.fuzzingbook.org/html/Fuzzer.html)

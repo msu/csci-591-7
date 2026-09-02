@@ -10,8 +10,7 @@ The class meets in Gianforte Hall 210 at TR 1215&#8211;1330.
 
 My office is at Gianforte Hall 360D and my regular office hours are:
 
-- TBD
-<!-- - M: 1430&#8211;1600 -->
+- T: 1345&#8211;1445; W: 1330&#8211;1530
 
 
 Please feel free to schedule an appointment with me outside of those hours.
