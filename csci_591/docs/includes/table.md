@@ -2,10 +2,10 @@ Date | Topic | Reading
  --- | --- | ---
 2026 Aug 27 (R) | Introduction | 
 2026 Sep 01 (T) | What Are Vulnerabilities? ([slides](/slides/vulnerabilities.pdf)) | 
-2026 Sep 03 (R) | Let's Write Vulnerable Code | 
-2026 Sep 08 (T) | Vulnerability Research | 
-2026 Sep 10 (R) | Introduction to Fuzzing | [Intro to Testing](https://www.fuzzingbook.org/html/Intro_Testing.html), [Fuzzing](https://www.fuzzingbook.org/html/Fuzzer.html)
-2026 Sep 15 (T) | TBD | 
+2026 Sep 03 (R) | Let's Write Vulnerable Code (Part 1) | 
+2026 Sep 08 (T) | Let's Write Vulnerable Code (Part 2) | 
+2026 Sep 10 (R) | Vulnerability Research | 
+2026 Sep 15 (T) | Introduction to Fuzzing | [Intro to Testing](https://www.fuzzingbook.org/html/Intro_Testing.html), [Fuzzing](https://www.fuzzingbook.org/html/Fuzzer.html)
 2026 Sep 17 (R) | Vulnerability Presentations | 
 2026 Sep 22 (T) | Mutation-based Fuzzing | [Code Coverage](https://www.fuzzingbook.org/html/Coverage.html), [Mutation-based Fuzzing](https://www.fuzzingbook.org/html/MutationFuzzer.html)
 2026 Sep 24 (R) | Fuzzing with Grammars | [Fuzzing with Grammars](https://www.fuzzingbook.org/html/Grammars.html), [Greybox Fuzzing with Grammars](https://www.fuzzingbook.org/html/GreyboxGrammarFuzzer.html)
