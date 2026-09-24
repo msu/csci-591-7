@@ -15,7 +15,7 @@ Date | Topic | Reading
 2026 Oct 08 (R) | REDQUEEN Paper | [*REDQUEEN: Fuzzing with Input-to-State Correspondence*](https://nyx-fuzz.com/papers/redqueen.pdf)
 2026 Oct 13 (T) | Introduction to Symbolic Execution | [Symbolic Execution Lecture Notes (Aldrich & Le Goues)](https://www.cs.cmu.edu/~aldrich/courses/17-355-18sp/notes/notes14-symbolic-execution.pdf)
 2026 Oct 15 (R) | Introduction to Symbolic Execution (Cont.) | 
-2026 Oct 20 (T) | TBD | 
+2026 Oct 20 (T) | Fuzzing Assignment Discussion and Assessment | 
 2026 Oct 22 (R) | Satisfiabilty Modulo Theories (SMT) (Recorded Lecture) ([video](https://montana.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dd4028f8-1d9a-4dd6-ab29-b20b0128e72dn)) | [Understanding SMT Solvers: An Introduction to Z3](https://de-engineer.github.io/SMT-Solvers/)
 2026 Oct 27 (T) | Paper Presentations (B) | 
 2026 Oct 29 (R) | Symbolic Execution Interpreters | 

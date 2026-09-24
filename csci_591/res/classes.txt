@@ -13,7 +13,7 @@
 "REDQUEEN Paper","","[*REDQUEEN: Fuzzing with Input-to-State Correspondence*](https://nyx-fuzz.com/papers/redqueen.pdf)"
 "Introduction to Symbolic Execution","","[Symbolic Execution Lecture Notes (Aldrich & Le Goues)](https://www.cs.cmu.edu/~aldrich/courses/17-355-18sp/notes/notes14-symbolic-execution.pdf)"
 "Introduction to Symbolic Execution (Cont.)","",""
-"TBD","",""
+"Fuzzing Assignment Discussion and Assessment","",""
 "Satisfiabilty Modulo Theories (SMT) (Recorded Lecture)","[video](https://montana.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dd4028f8-1d9a-4dd6-ab29-b20b0128e72dn)","[Understanding SMT Solvers: An Introduction to Z3](https://de-engineer.github.io/SMT-Solvers/)"
 "Paper Presentations (B)","",""
 "Symbolic Execution Interpreters","",""
