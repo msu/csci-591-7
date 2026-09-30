@@ -20,7 +20,7 @@
 "2026 Nov 03 (T)",""
 "2026 Nov 05 (R)",""
 "2026 Nov 10 (T)",""
-"2026 Nov 12 (R)",""
+"2026 Nov 12 (R)","Guest Lecture"
 "2026 Nov 17 (T)",""
 "2026 Nov 19 (R)",""
 "2026 Nov 24 (T)","Fall Break"
