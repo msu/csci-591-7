@@ -20,8 +20,8 @@ Date | Topic | Reading
 2026 Oct 27 (T) | Symbolic Execution Interpreters | 
 2026 Oct 29 (R) | Driller Paper | [*Driller: Augmenting Fuzzing Through Selective Symbolic Execution*](https://yancomm.net/papers/2016%20-%20NDSS%20-%20Driller.pdf)
 2026 Nov 03 (T) | Introduction to Static Program Analysis | 
-2026 Nov 05 (R) | Paper Presentations (C) | 
-2026 Nov 10 (T) | Program Semantics | [Program Analysis](https://cmu-program-analysis.github.io/2024/resources/program-analysis.pdf) (Ch 2,3)
+2026 Nov 05 (R) | Program Semantics | [Program Analysis](https://cmu-program-analysis.github.io/2024/resources/program-analysis.pdf) (Ch 2,3)
+2026 Nov 10 (T) | Paper Presentations (C) | 
 2026 Nov 12 (R) | Guest Lecture |
 2026 Nov 17 (T) | A Data-Flow Analysis Framework | [Program Analysis](https://cmu-program-analysis.github.io/2024/resources/program-analysis.pdf) (Ch 4)
 2026 Nov 19 (R) | More Flow Functions | [Program Analysis](https://cmu-program-analysis.github.io/2024/resources/program-analysis.pdf) (Ch 5)
