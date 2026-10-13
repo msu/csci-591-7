@@ -16,8 +16,8 @@ Date | Topic | Reading
 2026 Oct 13 (T) | Introduction to Symbolic Execution (Cont.) | 
 2026 Oct 15 (R) | Satisfiabilty Modulo Theories (SMT) ([video](https://montana.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dd4028f8-1d9a-4dd6-ab29-b20b0128e72dn)) | [Understanding SMT Solvers: An Introduction to Z3](https://de-engineer.github.io/SMT-Solvers/)
 2026 Oct 20 (T) | Fuzzing Assignment Discussion and Assessment | 
-2026 Oct 22 (R) | Paper Presentations (B) | 
-2026 Oct 27 (T) | Symbolic Execution Interpreters | 
+2026 Oct 22 (R) | Symbolic Execution Interpreters | 
+2026 Oct 27 (T) | Paper Presentations (B) | 
 2026 Oct 29 (R) | Driller Paper | [*Driller: Augmenting Fuzzing Through Selective Symbolic Execution*](https://yancomm.net/papers/2016%20-%20NDSS%20-%20Driller.pdf)
 2026 Nov 03 (T) | Introduction to Static Program Analysis | 
 2026 Nov 05 (R) | Program Semantics | [Program Analysis](https://cmu-program-analysis.github.io/2024/resources/program-analysis.pdf) (Ch 2,3)
