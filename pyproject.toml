@@ -12,4 +12,5 @@ dependencies = [
   "mkdocs-gitbook>=0.0.1,<1",
   "pymdown-extensions>=11.0.1",
   "mkdocs-macros-plugin>=1.5.0",
+  "pygments>=2.18,<3",
 ]

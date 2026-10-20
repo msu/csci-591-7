@@ -1,21 +1,14 @@
 window.MathJax = {
-    loader: {load: ['[tex]/ams']},
+  loader: {load: ['[tex]/ams', '[tex]/bussproofs']},
   tex: {
     inlineMath: [["\\(", "\\)"]],
     displayMath: [["\\[", "\\]"]],
     processEscapes: true,
     processEnvironments: true,
-    packages: {'[+]': ['ams']
+    packages: {'[+]': ['ams', 'bussproofs']}
   },
   options: {
-    ignoreHtmlClass: ".*|"
-//    processHtmlClass: "arithmatex"
+    ignoreHtmlClass: ".*|",
+    processHtmlClass: "arithmatex"
   }
 };
-
-document$.subscribe(() => {
-  MathJax.startup.output.clearCache()
-  MathJax.typesetClear()
-  MathJax.texReset()
-  MathJax.typesetPromise()
-})

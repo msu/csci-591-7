@@ -68,7 +68,7 @@ Name | Description | Posted Date | Due Date
 --- | --- | --- | ---
 [Assignment 01: Software Vulnerabilities](assignments/01.md) | Write programs with vulnerabilities. | Sep 03 | Sep 17
 [Assignment 02: Fuzzing](assignments/02.md) | Build a fuzzer for a target program. | Sep 24 | Oct 15
-Assignment 03: Symbolic Execution | Build a basic symbolic execution engine. | Oct 20 | Nov 03
+[Assignment 03: Symbolic Execution](assignments/03.md) | Build a basic symbolic execution engine. | Oct 20 | Nov 03
 Assignment 04: Data-Flow Analysis | Write data-flow analyses. | Nov 17 | Dec 10
 
 ### <a name="course-project"></a>Course Project
