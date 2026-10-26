@@ -18,16 +18,16 @@ Date | Topic | Reading
 2026 Oct 20 (T) | Fuzzing Assignment Discussion and Assessment | 
 2026 Oct 22 (R) | Symbolic Execution Interpreters | 
 2026 Oct 27 (T) | Paper Presentations (B) | 
-2026 Oct 29 (R) | Driller Paper | [*Driller: Augmenting Fuzzing Through Selective Symbolic Execution*](https://yancomm.net/papers/2016%20-%20NDSS%20-%20Driller.pdf)
-2026 Nov 03 (T) | Introduction to Static Program Analysis | 
-2026 Nov 05 (R) | Program Semantics | [Program Analysis](https://cmu-program-analysis.github.io/2024/resources/program-analysis.pdf) (Ch 2,3)
-2026 Nov 10 (T) | Paper Presentations (C) | 
+2026 Oct 29 (R) | Introduction to Static Program Analysis | 
+2026 Nov 03 (T) | Program Semantics | [Program Analysis](https://cmu-program-analysis.github.io/2024/resources/program-analysis.pdf) (Ch 2,3)
+2026 Nov 05 (R) | Paper Presentations (C) | 
+2026 Nov 10 (T) | A Data-Flow Analysis Framework | [Program Analysis](https://cmu-program-analysis.github.io/2024/resources/program-analysis.pdf) (Ch 4)
 2026 Nov 12 (R) | Guest Lecture |
-2026 Nov 17 (T) | A Data-Flow Analysis Framework | [Program Analysis](https://cmu-program-analysis.github.io/2024/resources/program-analysis.pdf) (Ch 4)
-2026 Nov 19 (R) | More Flow Functions | [Program Analysis](https://cmu-program-analysis.github.io/2024/resources/program-analysis.pdf) (Ch 5)
+2026 Nov 17 (T) | More Flow Functions | [Program Analysis](https://cmu-program-analysis.github.io/2024/resources/program-analysis.pdf) (Ch 5)
+2026 Nov 19 (R) | Properties of Data-Flow Analysis | [Program Analysis](https://cmu-program-analysis.github.io/2024/resources/program-analysis.pdf) (Ch 6)
 2026 Nov 24 (T) | Fall Break |
 2026 Nov 26 (R) | Fall Break |
-2026 Dec 01 (T) | Properties of Data-Flow Analysis | [Program Analysis](https://cmu-program-analysis.github.io/2024/resources/program-analysis.pdf) (Ch 6)
+2026 Dec 01 (T) | TBD | 
 2026 Dec 03 (R) | Paper Presentations (D) | 
 2026 Dec 08 (T) | Final Project Presentations (A) | 
 2026 Dec 10 (R) | Final Project Presentations (B) | 
