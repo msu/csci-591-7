@@ -31,3 +31,4 @@ Date | Topic | Reading
 2026 Dec 03 (R) | Paper Presentations (D) | 
 2026 Dec 08 (T) | Final Project Presentations (A) | 
 2026 Dec 10 (R) | Final Project Presentations (B) | 
+2026 Dec 17 (R) | Data-flow Analysis Assignment Discussion and Assessment |
