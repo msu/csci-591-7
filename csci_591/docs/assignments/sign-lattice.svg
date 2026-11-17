@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+<title id="title">Eight-element sign lattice</title>
+<desc id="desc">Upward lines indicate inclusion of possible signs. Bottom is empty; top contains all three signs. Join is union and meet is intersection.</desc>
+<rect width="800" height="420" fill="white"/>
+<g stroke="#64748b" stroke-width="2">
+<line x1="400" y1="370" x2="200" y2="260"/>
+<line x1="400" y1="370" x2="400" y2="260"/>
+<line x1="400" y1="370" x2="600" y2="260"/>
+<line x1="200" y1="260" x2="200" y2="150"/>
+<line x1="200" y1="260" x2="400" y2="150"/>
+<line x1="400" y1="260" x2="200" y2="150"/>
+<line x1="400" y1="260" x2="600" y2="150"/>
+<line x1="600" y1="260" x2="400" y2="150"/>
+<line x1="600" y1="260" x2="600" y2="150"/>
+<line x1="200" y1="150" x2="400" y2="40"/>
+<line x1="400" y1="150" x2="400" y2="40"/>
+<line x1="600" y1="150" x2="400" y2="40"/>
+</g><g text-anchor="middle" font-family="system-ui, sans-serif" fill="#0f172a">
+<rect x="318" y="14" width="164" height="52" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="400" y="36" font-size="17">Top</text><text x="400" y="56" font-size="14">{N, Z, P}</text>
+<rect x="118" y="124" width="164" height="52" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="200" y="146" font-size="17">Nonpositive</text><text x="200" y="166" font-size="14">{N, Z}</text>
+<rect x="318" y="124" width="164" height="52" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="400" y="146" font-size="17">Nonzero</text><text x="400" y="166" font-size="14">{N, P}</text>
+<rect x="518" y="124" width="164" height="52" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="600" y="146" font-size="17">Nonnegative</text><text x="600" y="166" font-size="14">{Z, P}</text>
+<rect x="118" y="234" width="164" height="52" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="200" y="256" font-size="17">Negative</text><text x="200" y="276" font-size="14">{N}</text>
+<rect x="318" y="234" width="164" height="52" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="400" y="256" font-size="17">Zero</text><text x="400" y="276" font-size="14">{Z}</text>
+<rect x="518" y="234" width="164" height="52" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="600" y="256" font-size="17">Positive</text><text x="600" y="276" font-size="14">{P}</text>
+<rect x="318" y="344" width="164" height="52" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="400" y="366" font-size="17">Bottom</text><text x="400" y="386" font-size="14">empty set</text>
+</g></svg>
